@@ -40,7 +40,7 @@
             font-size: 1rem;
             transition: border-color 0.2s;
         }
-        input[type="text"]:focus { outline: none; border-color: #4F46E5; }
+        input[type="text"]:focus { outline: none; border-color: #3B82F6; }
         input[type="file"] { display: none; }
         .upload-button {
             display: block;
@@ -49,7 +49,7 @@
             background: #EEF2FF;
             border: 2px dashed #818CF8;
             border-radius: 8px;
-            color: #4F46E5;
+            color: #3B82F6;
             font-weight: 500;
             cursor: pointer;
             text-align: center;
@@ -77,8 +77,8 @@
             gap: 8px;
         }
         .button:disabled { opacity: 0.5; cursor: not-allowed; }
-        .button-primary { background: #4F46E5; color: white; }
-        .button-primary:hover:not(:disabled) { background: #4338CA; }
+        .button-primary { background: #3B82F6; color: white; }
+        .button-primary:hover:not(:disabled) { background: #2563EB; }
         .button-success { background: #10B981; color: white; }
         .button-success:hover:not(:disabled) { background: #059669; }
         .button-secondary { background: #E5E7EB; color: #374151; }
@@ -139,7 +139,7 @@
             margin-top: 8px;
         }
         .progress-fill {
-            background: #4F46E5;
+            background: #3B82F6;
             height: 100%;
             transition: width 0.3s;
         }
@@ -166,7 +166,7 @@
         .letter-cue-text {
             font-size: 6rem;
             font-weight: bold;
-            background: linear-gradient(135deg, #4F46E5, #7C3AED);
+            background: linear-gradient(135deg, #3B82F6, #7C3AED);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -202,7 +202,7 @@
         .writing-field-label {
             font-size: 1rem;
             font-weight: 600;
-            color: #4F46E5;
+            color: #3B82F6;
         }
         .feedback {
             padding: 16px;
@@ -249,9 +249,9 @@
             transition: all 0.2s;
         }
         .tab-button.active {
-            background: #4F46E5;
+            background: #3B82F6;
             color: white;
-            border-color: #4F46E5;
+            border-color: #3B82F6;
         }
         .tab-content { display: none; }
         .tab-content.active { display: block; }
@@ -523,7 +523,7 @@
                 stepContent.innerHTML = `
                     <div class="text-center">
                         <img src="${currentWord.imageUrl}" alt="Visual stimulus" class="practice-image">
-                        <p style="color: #4F46E5; font-weight: 500; margin-top: 16px;">🧠 Study this image carefully</p>
+                        <p style="color: #3B82F6; font-weight: 500; margin-top: 16px;">🧠 Study this image carefully</p>
                     </div>
                 `;
                 nextButton.textContent = 'Next Step ➡️';
